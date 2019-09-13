@@ -37,6 +37,7 @@ with sqlite3.connect("cma-artworks.db") as connection:
         data.append(entry)
     #print(json.dumps({'artwork': data}, sort_keys=False, indent=4))
     
-    f = open("artwork.json", "w")
-    f.write(json.dumps({'artwork': data}, sort_keys=False, indent=4))
-    f.close()
+    
+f = open("artwork.json", "w")
+f.write(json.dumps({'artwork': data}, sort_keys=False, indent=4))
+f.close()
