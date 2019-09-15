@@ -1,5 +1,15 @@
 # CMA Developer Code Test
 
+## Running the project
+
+This project has been built and tested in Windows 10, with Python version 2.7.16, Virtualenv version 1.10.1, and Flask version 1.1.1.  It may be necessary to install one or more of these tools if they are missing from your system.
+
+Part 1 of the project can be simply run by opening a command-line in the project directory, and running "python json_generator.py".
+
+Part 2 can be run by first activating the virtual environment with the command "scripts/activate" (on Windows), and then "python app.py".  This starts the Flask development web server that is reachable in your browser at 127.0.0.1:5000.  
+
+If you wish to regenerate the artwork.json file, run the part 1 app, then move the created file from the main directory to static/json/ and overwrite.
+
 ## Part 1: Data Transformation
 
 A 5-table SQLite database has been provided. The database contains a table of 100 artworks, a table of creators, a table of departments, and 2 linking tables containing the relationships between artworks, departments, and creators.
