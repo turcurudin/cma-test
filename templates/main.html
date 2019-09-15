@@ -1,4 +1,11 @@
 {% extends "template.html" %}
 {% block content %}
-    <h2>Welcome to the test page!</h2>
+    <h2>Select any department to view its artwork.</h2>
+            <form id="myForm">
+                <select id="selectDept" onchange="displayDetails()">
+                    <option>Choose a Department</option>
+                </select>
+            </form>
+            <div id="displayArea"></div>
+            <script type="text/javascript">
 {% endblock %}
