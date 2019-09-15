@@ -1,19 +1,47 @@
 {
-    "creator": [
+    "artwork": [
         {
-            "role": "artist", 
-            "id": "48024", 
-            "description": "Kenneth M Chapman (American, 1875-1968)"
-        }
-    ], 
-    "title": "San Ildefonso Pottery Design", 
-    "accession_number": "1928.35", 
-    "tombstone": "San Ildefonso Pottery Design, ", 
-    "department": [
+            "creator": [
+                {
+                    "role": "artist", 
+                    "id": "29993", 
+                    "description": "John Taylor Arms (American, 1887-1953)"
+                }, 
+                {
+                    "role": "printer", 
+                    "id": "68000", 
+                    "description": "Frederick Reynolds (American, b. England, 1882-1945)"
+                }
+            ], 
+            "title": "Gates of the City", 
+            "accession_number": "2015.584", 
+            "tombstone": "New York Series: Gates of the City, 1922. John Taylor Arms (American, 1887-1953). Color etching and aquatint; platemark: 21.5 x 20.2 cm (8 7/16 x 7 15/16 in.); sheet: 31.1 x 26.2 cm (12 1/4 x 10 5/16 in.). The Cleveland Museum of Art, Gift of Carole W. and Charles B. Rosenblatt 2015.584 Courtesy of John Taylor Arms/ \u00a9 Suzanne Arms Hawkins", 
+            "department": [
+                {
+                    "id": "21", 
+                    "name": "Prints"
+                }
+            ], 
+            "id": "86508"
+        }, 
         {
-            "id": "6", 
-            "name": "Drawings"
+            "creator": [
+                {
+                    "role": "artist", 
+                    "id": "282172", 
+                    "description": "Ikky\u016b S\u014djun (Japanese, 1394-1481)"
+                }
+            ], 
+            "title": "Calligraphy with Willow and Swallows", 
+            "accession_number": "2015.463", 
+            "tombstone": "Calligraphy with Willow and Swallows, 1400s. Ikky\u016b S\u014djun (Japanese, 1394-1481). Hanging scroll, ink on paper; overall: 104 x 34.8 cm (40 15/16 x 13 11/16 in.). The Cleveland Museum of Art, Gift from the Collection of George Gund III 2015.463", 
+            "department": [
+                {
+                    "id": "14", 
+                    "name": "Japanese Art"
+                }
+            ], 
+            "id": "90151"
         }
-    ], 
-    "id": "109709"
+    ]
 }
